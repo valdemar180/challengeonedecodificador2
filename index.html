@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+
+    <title> Cryptografador De Texto</title>
+    <link rel="icon" href="img\pag.png" type="image/x-icon">
+    <script src="criptografador.js"></script>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+
+        <div class="logo">
+            <h1><img src="img\Vector.png" ></h1>
+
+        </div>
+    </header>
+    <main>
+   
+        
+        <textarea id="input" placeholder="Digite seu texto"></textarea>
+        
+        
+        <textarea  id="texto" ></textarea>
+
+        <p id="primeira-mensagem"> Nenhuma mensagem encontrada </p>
+
+        <p id="segunda-mensagem"> Digite um texto que você deseja criptografar ou descriptografar.</p>
+
+        <button class="copiar" onclick="copiarTexto()">Copiar</button>
+        
+        <p id="info"><img src="img\697.png" width="16px" > Apenas letras minúsculas e sem acento.</p> 
+        
+        <button id="Cryptografar" onclick="cryptografar();">
+            <span class="text">Cryptografar</span>
+        </button>
+
+        <button id="descriptografar" onclick="descriptografar();">
+            <span class="text">Descriptografar</span>
+        </button> 
+      
+    </main>
+    <footer>
+        <p class="Copyright">&copy; Valdemar Soares de Oliveira</p>
+        <p>Oracle + Alura</p>
+        <p>2022</p>
+    </footer>
+</body>
+</html>
